@@ -13,11 +13,19 @@ class DeliciousFoods extends StatelessWidget {
       child: Row(
         children: [
           DeliciousFoodsCard(
-            image: "assets/images/NO.png",
+            image: "assets/images/Domino.png",
             press: () {},
           ),
           DeliciousFoodsCard(
-            image: "assets/images/pas.png",
+            image: "assets/images/la.png",
+            press: () {},
+          ),
+          DeliciousFoodsCard(
+            image: "assets/images/download.png",
+            press: () {},
+          ),
+          DeliciousFoodsCard(
+            image: "assets/images/download (1).png",
             press: () {},
           ),
         ],
@@ -41,10 +49,10 @@ class DeliciousFoodsCard extends StatelessWidget {
       child: Container(
         margin: EdgeInsets.only(
             left: kDefaultPadding,
-            top: kDefaultPadding / 2,
-            bottom: kDefaultPadding / 2),
-        width: size.width * 0.8,
-        height: 185,
+            top: kDefaultPadding ,
+            bottom: kDefaultPadding ),
+        width: size.width * 0.38,
+        height: 160,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
             image:

@@ -22,7 +22,7 @@ class Body extends StatelessWidget {
             press: () {},
           ),
           RecomendsFood(),
-          TitleWithMoreBtn(title: 'Delicious Foods', press: () {}),
+          TitleWithMoreBtn(title: 'Famous Outlets', press: () {}),
           DeliciousFoods(),
           SizedBox(height: kDefaultPadding,)
         ],

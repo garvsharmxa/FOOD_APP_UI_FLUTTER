@@ -34,6 +34,13 @@ class RecomendsFood extends StatelessWidget {
             title: 'Burger',
             press: () {},
           ),
+          RecomendedFoodCard(
+            image: 'assets/images/Screenshot 2022-08-20 at 2.21.22 PM.png',
+            price: 59,
+            country: 'Algeria',
+            title: 'Cold Coffee',
+            press: () {},
+          ),
         ],
       ),
     );
@@ -60,9 +67,9 @@ class RecomendedFoodCard extends StatelessWidget {
     return Container(
       margin: EdgeInsets.only(
           left: kDefaultPadding,
-          top: kDefaultPadding / 2,
+          top: kDefaultPadding / 3,
           bottom: kDefaultPadding * 2.5),
-      width: size.width * 0.4,
+      width: size.width * 0.35,
       child: Column(
         children: [
           Image.asset(image),
